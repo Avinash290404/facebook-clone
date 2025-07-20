@@ -1,0 +1,371 @@
+*{
+    background-color: white;
+    font-family: sans-serif typeface ;
+
+}
+.facebookhome{
+    color: rgb(42, 109, 225);
+    font-size:50px;
+    margin: 17% 5% 1% 7%;
+    font-weight: 900;
+}
+.facebookhomep{
+    color: black;
+    font-size: 30px;
+    margin: 0% 5% 1% 7%;
+}
+.Login{
+    display: flex;
+    flex-direction: column;
+    width: 20vw ;
+    height: 50wh;
+    margin: -15% 0% 0% 50%;
+    box-shadow: 0px 0px 2px gray ;
+    padding: 6%;
+    border: 10% 20% 10% 20%;
+}
+.Login input{
+    padding: 3%;
+    margin: 3% 0% 1% 0%;
+    width: 15vw;
+}
+#login{
+    background-color:  rgb(42, 109, 225);
+    color: white;
+    font-weight: 500;
+    padding: 2%;
+    margin: 3% 0% 1% 0%;
+    border-radius: 10px;
+    width: 19vw;
+    border: none;
+}
+#login:hover{
+    background-color: rgb(40, 69, 199);
+    color: white;
+    font-weight: 500;
+    padding: 2%;
+    margin: 3% 0% 1% 0%;
+    border-radius: 10px;
+    border: none;
+}
+#login:active{
+    background-color: rgb(40, 69, 199);
+    color: white;
+    font-weight: 500;
+    padding: 2%;
+    margin: 3% 0% 1% 0%;
+    border-radius: 10px;
+    border: none;
+}
+.Login a{
+    margin: 4% 0% 1% 0%;
+    text-align: center;
+
+}
+#newaccount{
+    background-color: rgb(96, 146, 21);
+    color: white;
+    font-weight: 500;
+    margin: 2% 0% 1% 0%;
+    align-items: center;
+    padding: 3%;
+    border-radius: 10px;
+    width: 10vw;
+    border: none;
+}
+#newaccount a{
+    color: white;
+}
+#newaccount:hover{
+    background-color: rgb(63, 105, 0);
+    color: white;
+    font-weight: 500;
+    margin: 2% 0% 1% 0%;
+    align-items: center;
+    padding: 3%;
+    border-radius: 10px;
+    border: none;
+}
+#newaccount:active{
+    background-color: rgb(63, 105, 0);
+    color: white;
+    font-weight: 500;
+    margin: 2% 0% 1% 0%;
+    align-items: center;
+    padding: 3%;
+    border-radius: 10px;
+    border: none;
+}
+.forrgottonpass{
+    margin: 2% 0% 4% 0%;
+}
+
+/* forgot password page */
+
+*{
+    border: 0%;
+    padding: 0%;
+    margin: 0%;
+}
+.logo{
+    position: fixed;
+    margin: 1% 0% 0% 2%;
+    font-size: 50PX;
+    font-weight: 900;
+    color: rgb(27, 57, 191);
+    background-color: transparent;
+}
+.navbar{
+    background-color: rgb(255, 255, 255);
+    margin:  2% 0% 0% 0%;
+    width: 97%;
+    height: 2.5vh;
+    top: 0%;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: end;
+}
+.navbar li{
+    padding: 3px;
+    margin: 0.3%;
+    list-style: none;
+    background-color: transparent;
+}
+.navbar a{
+    background-color: transparent;
+    color: rgb(31, 65, 188);
+    list-style: none;
+    margin: 2% 1% 0% 0%;
+    border: 4vw;
+}
+.navbar input{
+    padding: 1%;
+    border: 1px solid black;
+    width: 10vw;
+}
+#loginb{
+    background-color: rgb(25, 25, 171);
+    color: white;
+    font-weight: 500;
+    padding: 2%;
+    margin: 3% 1% 1% 0%;
+    border-radius: 10px;
+    width: 2vw;
+    border: none;
+}
+#loginb:hover{
+    background-color: rgb(40, 69, 199);
+    color: white;
+    font-weight: 500;
+    padding: 2%;
+    margin: 3% 0% 1% 0%;
+    border-radius: 10px;
+    border: none;
+}
+#loginb:active{
+    background-color: rgb(40, 69, 199);
+    color: white;
+    font-weight: 500;
+    padding: 2%;
+    margin: 3% 0% 1% 0%;
+    border-radius: 10px;
+    border: none;
+}
+.forrgottonpass{
+    color: rgb(27, 57, 191);
+}
+.forrgottonpass:hover{
+    text-decoration: solid underline;
+}
+.forrgottonpass:active{
+    text-decoration: solid underline;
+}
+.forgetpassform{
+    display: flex;
+    flex-direction: column;
+    width: 35vw ;
+    height: 25vh;
+    margin: 9% 0% 0% 30%;
+    box-shadow: 0px 0px 5px  grey ;
+    padding: 6%;
+    border: 10% 20% 10% 20%;
+    background-color: whitesmoke;
+}
+.forgetpassform h1{
+    font-size: 30px;
+    font-weight: 900;
+    margin: 2% 0% 1% 0%;
+}
+.forgetpassform p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 2% 0% 1% 0%;
+}
+.forgetpassform input{
+    padding: 2%;
+    margin: 2% 0% 1% 0%;
+}
+#cancelbutton{
+    display: flex;
+    border: 1px;
+    width: 15%;
+    border-radius: 1px;
+    align-items: end;
+    justify-content: flex-end;
+    padding: 3%;
+    border-style: solid;
+    margin: 11% 0% 1% 67%;
+    background-color: gray;
+    font-weight: 400;
+    border: none;
+}
+#cancelbutton:hover{
+    background-color: rgb(156, 154, 154);
+    border: none;
+}
+#cancelbutton:active{
+    background-color: rgb(156, 154, 154);
+    border: none;
+}
+#searchbutton{
+    flex: content;
+    width: 15%;
+    border-radius: 1px;
+    align-items: end;
+    justify-content: flex-end;
+    padding: 3%;
+    border-style: solid;
+    margin: -10% 0% 1% 85%;
+    background-color: rgb(19, 70, 210);
+    font-weight: 400;
+    border: none;
+}
+#searchbutton:hover{
+    background-color: rgb(15, 58, 175);
+}
+#searchbutton:active{
+    background-color: rgb(15, 58, 175);
+}
+
+/* Signup page */
+#facebooklogo{
+    margin: 6% 0% 1% 0%;
+    font-size: 50px;
+    font-weight: 900;
+    color:rgb(15, 58, 175);
+}
+#signupform{
+    display: flex;
+    flex-direction: column;
+    width:25vw ;
+    height: 67vh;
+    margin: 2% 0% 0% 35%;
+    box-shadow: 0px 0px 5px  grey ;
+    padding: 2%;
+}
+#signupform h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+#signupform label{
+    margin: 3% 0% 0% 0%;
+    color: grey;
+}
+#signupform input{
+    margin: 3% 0% 0% 1%;
+    border: 1px solid rgb(194, 188, 188);
+    padding: 2%;
+}
+#signupform button{
+    margin: 4% 0% 4% 30%;
+    background-color: rgb(59, 174, 39);
+    color: white;
+    padding: 1%;
+    border-radius: 10px;
+    border: none;
+    width: 10vw;
+}
+#signupform button:hover{
+    background-color: rgb(43, 145, 26);
+    color: white;
+}
+#signupform button:active{
+    background-color: rgb(43, 145, 26);
+    color: white;
+}
+.alreadyhavaccount{
+    color:  rgb(15, 58, 175);;
+    margin: 5% 0% 0% 0%;
+}
+ /* already have an account page */
+.Loginpage{
+    display: flex;
+    flex-direction: column;
+    width: 25vw ;
+    height: 28vh;
+    margin: 2% 0% 0% 33%;
+    box-shadow: 0px 0px 5px  rgb(110, 109, 109) ;
+    padding: 1%;
+    border: 10% 20% 10% 20%;
+}
+.Loginph1{
+    margin: 1% 0% 2% 30%;
+    font-size: large;
+    font-weight: lighter;
+}
+.Loginpage input{
+    padding: 2%;
+    width: 20vw;
+    margin: 2% 2% 2% 7%;
+}
+#loginb{
+    background-color: rgb(27, 62, 158);
+    color: white;
+    font-weight: 500;
+    padding: 2%;
+    margin: 3% 0% 1% 7%;
+    border-radius: 10px;
+    width: 20vw;
+    border: none;
+}
+#loginb:hover{
+    background-color: rgb(14, 44, 174);
+    color: white;
+    margin: 3% 0% 1% 7%;
+}
+#loginb:active{
+    background-color: rgb(14, 44, 174);
+    color: white;
+    margin: 3% 0% 1% 7%;
+}
+.forrgottonpassb{
+    color: rgb(40, 40, 207);
+    margin: 5% 2% 0% 8%;
+    font-size: medium;
+}
+.signupfacebook{
+    color: rgb(40, 40, 207);
+    margin: 5% 0% 0% 2%;
+    font-size: medium;
+}
+#facebooklogob{
+    margin: 15% 0% 0% 40%;
+    font-size: 50px;
+    font-weight: 900;
+    color:rgb(15, 58, 175);
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main .ins{
+       display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border:0.5px solid #b9b9b9;
+    padding: 10px;
+}
